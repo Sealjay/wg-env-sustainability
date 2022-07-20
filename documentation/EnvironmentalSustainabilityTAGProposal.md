@@ -11,9 +11,9 @@ All activities should positively impact the community by changing mindset, incre
 Making sustainability more accessible is essential in this work.  Customers want to use fewer resources for both environmental and for financial reasons, but there is limited direction in how and much of the technology is within the early stages.  Balancing resource consumption with desire for performance is also difficult.  Much of the tooling is scattered and not tested.
 
 We want projects that cover more material, such as:
-Standards:  The Green Software Foundation has the Software Carbon Intensity Specification which is appealing:  
-Tooling for test, evaluation, and audit (little exists at present)
-Ways to do measurement within systems (Scaphandre)
+ - Standards and taxonomy that define the metrics and goals of system sustainability. This is similar but not limited to the existing works such as the Software Carbon Intensity Specification under The Green Software Foundation.
+ - Tooling for test, evaluation, and audit sustainability metrics during the lifecycle of software development.
+ - Methodology to measure energy and carbon footprint within systems.
 
 ## Responsibilities & Deliverables
 
