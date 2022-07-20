@@ -1,4 +1,4 @@
-# Environmental Sustanability TAG Proposal
+# Environmental Sustainability TAG Proposal
 
 ## Sig Mission Statement
 
