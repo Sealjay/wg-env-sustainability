@@ -11,17 +11,17 @@ Scott: k8s on prem makes CNCF a vital impact on sustainability. on-prem/cloud ar
 EK: cloud transition energy saving (citation)
 English format (US vs UK)
 ---> 
-Data Centers, and therefore every compute resource accessible, are currently using [1% of the world's electricty use](https://www.science.org/doi/10.1126/science.aba3758). This is conservatively expected to grow to hold 1-2% in the next couple of years, up to <!--- TODO need reference ---> 12% by 2040. The growth in energy for computing is out-pacing the global growth in energy production. The contributing factors include explosion in data, emergence of energy-intensive workloads such as Blockchain/AI/video streaming/VR, and the flattening of Moore's law. 
+Data Centers, and therefore every compute resource accessible, are currently using [1% of the world's electricty use](https://www.science.org/doi/10.1126/science.aba3758). This is conservatively expected to grow to hold 1-2% in the next couple of years, up to 12% by 2040. The growth in energy for computing is out-pacing the global growth in energy production. The contributing factors include explosion in data, emergence of energy-intensive workloads such as Blockchain/AI/video streaming/VR, and the flattening of Moore's law. 
 
-Greenhouse Gas Emissions (GHG) are one of the key factors for global warming. In order to curb this trend, we need to identify how to reduce the environmental footprints of increasingly large data centers. The good news is that there is also an increase in industry initiatives for environmental sustainability. This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives.
+The Paris Climate Accords outline the link between economic activity, greenhouse gas emissions (GHG), and the impacts of climate change. GHG  emissions, primarily made from Carbon Dioxide are released during the combustion of fossil fuels to produce electricity. In order to reach net zero goals, we need to identify how to reduce the environmental footprints of increasingly large data centers. In order to curb this trend, we need to identify how to reduce the environmental footprints of increasingly large data centers. The good news is that there is also an increase in industry initiatives for environmental sustainability. This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives.
 
-All activities aim to positively impact the community by changing mindset, increasing efficiency, and putting energy efficiency and environmental sustainability on everyone's agenda.  We also seek to define, prevent, and identify patterns of inadvertent or overt [greenwashing](https://en.wikipedia.org/wiki/Greenwashing) <!--- industry charters on greenwashing --->.
+All activities aim to positively impact the community by changing mindset, increasing resource efficiency, and putting energy efficiency and environmental sustainability on everyone's agenda.  We also seek to define, prevent, and identify patterns of inadvertent or overt [greenwashing](https://en.wikipedia.org/wiki/Greenwashing).
 
 We recognize that: 
 - there is limited direction in how and much of the technology is within the early stages
 - balancing resource consumption with desire for performance is difficult
 - much of the tooling is scattered, not well tested, or not integrated with CNCF projects.
-- there is considerable inconsistency in how emissions are calculated and what is included/excluded
+- there is considerable inconsistency in how emissions are calculated and what is included/excluded by software in scopes of emission. 
  
 In this light, we belive it is essential to achieve the TAG's goals by making sustainability-oriented projects, methodologies, and technologies more accessible to the community and guiding the end users to use resources efficiently to achieve sustainability and climate aligned financial goals.
 
@@ -50,8 +50,8 @@ We want projects that cover more materials, such as:
 - Limit the scope of our activities by referring to the [CNCF Cloud Native definition](https://github.com/cncf/toc/blob/main/DEFINITION.md)
 
 ### Out of scope
-- Form an umbrella organization beyond CNCF
-- Establish a compliance body within CNCF
+- Form an umbrella organization beyond the CNCF
+- Establish a compliance and standards body beyond the CNCF
 
 <!---
 ### Under Consideration 
@@ -60,12 +60,12 @@ Scope 3 for hybrid architecture
 --->
 
 ## Deliverables to ToC
-- framework document for the cloud-native power metrics/measurements/management space
-- landscape for the power metrics/measurements/management savings
+- framework document for the cloud-native carbon and energy metrics/measurements/management space
+- landscape for the carbon and energy metrics/measurements/management savings
 - recommendations for sandbox projects where exploration is needed
 - recommendations for new CNCF projects where there is clear use cases
 - scheduled regular reporting to ToC on ongoing and completed work
-- reporting on power saving/metrics/measurements/management projects for graduation and other events, summarizing the external power related research, reviews and other relevant information
+- reporting on carbon and energy saving/metrics/measurements/management projects for graduation and other events, summarizing the external power related research, reviews and other relevant information
 - help with regular health checks of projects in the category
 
 #### Audiences
@@ -122,8 +122,10 @@ This proposal is contributed by (in alphabetical order):
 - Chen Wang
 - Eun Kyung Lee
 - Huamin Chen
+- Jorge Palma
 - Mark Butcher
 - Marlow Weston
+- Max Körbächer
 - Niki Manoledaki
 - Scott Rigby
 - William Caban
