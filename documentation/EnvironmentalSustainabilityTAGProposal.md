@@ -4,14 +4,13 @@
 
 ### Why TAG Environmental Sustainability? 
 
-<!--- reference needed for all numbers 
-According to the International Energy Agency, data centers consume approximately 200 terawatt-hours (TWh) of electricity, or nearly 1% of global electricity demand, contributing to 0.3% of all global CO2 emissions.
-
-Scott: k8s on prem makes CNCF a vital impact on sustainability. on-prem/cloud are both in scope.
-EK: cloud transition energy saving (citation)
-English format (US vs UK)
+<!--- 
+Please note:
+- creditable references are needed for all numbers 
+- Consistent English format (US vs UK)
 ---> 
-Data Centers, and therefore every compute resource accessible, are currently using [1% of the world's electricty use](https://www.science.org/doi/10.1126/science.aba3758). This is conservatively expected to grow to hold 1-2% in the next couple of years, up to 12% by 2040. The growth in energy for computing is out-pacing the global growth in energy production. The contributing factors include explosion in data, emergence of energy-intensive workloads such as Blockchain/AI/video streaming/VR, and the flattening of Moore's law. 
+
+Data Centers are currently using [1% of the world's electricity use](https://www.science.org/doi/10.1126/science.aba3758). This is conservatively expected to grow to hold 1-2% in the next couple of years, up to 12% by 2040. The growth in energy for computing is out-pacing the global growth in energy production. The contributing factors include explosion in data, emergence of energy-intensive workloads such as Blockchain/AI/video streaming/VR, and the flattening of Moore's law. 
 
 The Paris Climate Accords outline the link between economic activity, greenhouse gas emissions (GHG), and the impacts of climate change. GHG  emissions, primarily made from Carbon Dioxide are released during the combustion of fossil fuels to produce electricity. In order to reach net zero goals, we need to identify how to reduce the environmental footprints of increasingly large data centers. In order to curb this trend, we need to identify how to reduce the environmental footprints of increasingly large data centers. The good news is that there is also an increase in industry initiatives for environmental sustainability. This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives.
 
@@ -28,7 +27,7 @@ In this light, we belive it is essential to achieve the TAG's goals by making su
 We want projects that cover more materials, such as:
  - Standards and taxonomy that define the metrics and goals of system sustainability. This is similar but not limited to the existing works such as the [Software Carbon Intensity Specification](https://github.com/Green-Software-Foundation/software_carbon_intensity/blob/main/Software_Carbon_Intensity/Software_Carbon_Intensity_Specification.md) under The Green Software Foundation.
  - Tooling for test, evaluation, and audit sustainability metrics during the lifecycle of software development.
- - Tooling that highlights wasted/inefficient resources (whether Data Centers, platforms, Cloud, etc.)
+ - Tooling that highlights wasted/inefficient resources (whether located in Data Centers, platforms, Cloud, etc.)
  - Tooling that improves optimization of carbon footprint/sustainability (for example, energy efficiency/carbon aware scheduling, placement, dispatchers and autoscalers for Data Centers, platforms, Cloud, etc.) 
  - Methodology to measure Scope 1,2,and 3 energy and carbon footprint of systems.
 
@@ -39,19 +38,22 @@ We want projects that cover more materials, such as:
 - Define users/personas/needs/customer demands in the power metrics/measurements/management
 - Develop methodology to assess organizational maturity and capability to implement improvements
 - Identify areas of focus on performance per Watt, power savings, etc
-- Identify, define, and develop methodology, tools, framework for evaluation - how do products and tools fit the users in the area?
-- Evaluate architectures - what power measurement and management as well as performance gaps are there?
-- Integrate common tooling into different projects, particularly where that tooling is a CNCF project 
+- Identify, define, and develop methodology, tools, framework for evaluation - how do products and tools fit the users in the area? What is the standard/benchmark for evaluation and efficiency/green score?
+- Evaluate architectures, for example, power measurement and management as well as performance gaps
+- Create recommendations to help users tie improvements to carbon net zero goals
+- Community outreach on any items within scope, for instance blogs/twitter/conferences/podcasts/meetups et cetera
+- Integrate common tooling into different projects, particularly where that tooling is a CNCF project
 - Identify, define, and develop procedures to improve environmental sustainability factors, benchmarks for the quantification of energy consumption of software, techniques to manage software such that the overall energy consumption and associated carbon is reduced.
 - Identify, define, and develop procedures and technologies that can be used to create carbon "unit economics"
 - Enhance energy efficiency and reduce carbon footprint of CNCF projects both on-prem and Cloud services
 - Define, prevent, and identify patterns of overt and inadvertent greenwashing
-- Collaborate with existing efforts from perspective of Cloud Native
-- Limit the scope of our activities by referring to the [CNCF Cloud Native definition](https://github.com/cncf/toc/blob/main/DEFINITION.md)
+- Collaborate with existing efforts, especially from the standpoint of cloud native
 
 ### Out of scope
 - Form an umbrella organization beyond the CNCF
 - Establish a compliance and standards body beyond the CNCF
+- Evaluate individual company infrastructures
+- Focus outside of Cloud Native Technologies, according to the [CNCF Cloud Native definition](https://github.com/cncf/toc/blob/main/DEFINITION.md)
 
 <!---
 ### Under Consideration 
@@ -67,6 +69,7 @@ Scope 3 for hybrid architecture
 - scheduled regular reporting to ToC on ongoing and completed work
 - reporting on carbon and energy saving/metrics/measurements/management projects for graduation and other events, summarizing the external power related research, reviews and other relevant information
 - help with regular health checks of projects in the category
+- suggestions for improvements for CNCF internal processes, for example education for sustainability
 
 #### Audiences
 
@@ -77,7 +80,7 @@ Scope 3 for hybrid architecture
 #### The issue of the Landscape(s)
 
 - Being “deliberate” about what this (these) are for, and for whom?
-- Main landscape has become an anti-pattern (kitchen sink effect)
+- Main power landscape has become anti-pattern by slowing progress
 
 #### Execution & Focus
 
@@ -120,13 +123,17 @@ The initial doc was taken from the [Environmental WG charter](https://docs.googl
 This proposal is contributed by (in alphabetical order):
 - Cara Delia
 - Chen Wang
+- Debra Bernstein
 - Eun Kyung Lee
 - Huamin Chen
+- Jiaju Zhang
 - Jorge Palma
+- Leonard Pahlke
 - Mark Butcher
 - Marlow Weston
 - Max Körbächer
 - Niki Manoledaki
+- Parul Singh
 - Scott Rigby
+- Tony Mongkolsmai
 - William Caban
-
