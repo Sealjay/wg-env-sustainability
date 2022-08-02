@@ -7,12 +7,36 @@
 <!--- 
 Please note:
 - creditable references are needed for all numbers 
-- Consistent English format (US vs UK)
+- Consistent English format (US vs UK) (Q: Which does this use?)
 ---> 
 
-Data Centers are currently using [1% of the world's electricity use](https://www.science.org/doi/10.1126/science.aba3758). This is conservatively expected to grow to hold 1-2% in the next couple of years, up to 12% by 2040. The growth in energy for computing is out-pacing the global growth in energy production. The contributing factors include explosion in data, emergence of energy-intensive workloads such as Blockchain/AI/video streaming/VR, and the flattening of Moore's law. 
+<!--
+Software may not immediately come to mind when thinking about sustainability, but as the number of people living in increasing wealth increases, so does the consumption of goods, and with it the widespread use of software. Together with the shift of everyday life to digital platforms and the increasing use of software in existing business processes, it is emerging that sustainability and software must be thought together, because without devices, IT infrastructures it would not be possible to use software. Given the widespread use of open source services, the potential impact of sustainable cloud native applications is large.
 
-The Paris Climate Accords outline the link between economic activity, greenhouse gas emissions (GHG), and the impacts of climate change. GHG  emissions, primarily made from Carbon Dioxide are released during the combustion of fossil fuels to produce electricity. In order to reach net zero goals, we need to identify how to reduce the environmental footprints of increasingly large data centers. In order to curb this trend, we need to identify how to reduce the environmental footprints of increasingly large data centers. The good news is that there is also an increase in industry initiatives for environmental sustainability. This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives.
+![](https://i.imgur.com/7EqeDvV.png) // how to reconcile with ESG in general, https://ieeexplore.ieee.org/abstract/document/7202997?casa_token=EttLMTSYpKMAAAAA:CvNURvkeRqTrxZRDhTegl0vAJ7TWgZ1R-jYejGLLQwGJDq03a6NlO1UgQk1yb6w52kxLZpVtmZE
+
+
+As shown in the diagram, sustainability brings together social, economic and environmental aspects to build a sustainable system. As the name of TAG Environmental Sustainability suggests, TAG's focus places a particular emphasis on the environment, but it must also collaborate with other groups in the other areas needed to build a sustainable system, as well as build expertise on its own. 
+-->
+
+Data Centers are currently using [1% of the world's electricity use](https://www.science.org/doi/10.1126/science.aba3758). This is conservatively expected to grow to hold 1-2% in the next couple of years, up to 12% by 2040. The growth in energy for computing is out-pacing the global increase in energy production. The contributing factors include: 
+
+* an explosion in the quantity of data
+* the emergence of energy-intensive workloads such as Blockchain/AI/video streaming/VR, 
+* and the flattening of Moore's law.
+
+<!---
+08/02: 
+Max: old research (4~5 years). Current evidence. Precise numbers, CO2 guessmate. Clear pictures needed. 
+Highlight that our approach is transparent, creditable, and accountable, in addition to statements.  
+Leo: how to use the numbers and what CNCF can do in these areas.
+Scott: other sources of mentioning data centers, scope of this community focusing on CNCF. How does this paragraph relate to CNCF? *Alignment with other groups*.
+
+other sources (e.g. https://www.iea.org/reports/data-centres-and-data-transmission-networks)
+
+--->
+
+The Paris Climate Accords outline the link between economic activity, greenhouse gas emissions (GHG), and the impacts of climate change. GHG  emissions, primarily made from Carbon Dioxide, are released during the combustion of fossil fuels to produce electricity. To reach net zero goals, we need to identify how to reduce the environmental footprints of increasingly large data centers. The good news is that there is also an increase in industry initiatives for environmental sustainability. This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives.
 
 All activities aim to positively impact the community by changing mindset, increasing resource efficiency, and putting energy efficiency and environmental sustainability on everyone's agenda.  We also seek to define, prevent, and identify patterns of inadvertent or overt [greenwashing](https://en.wikipedia.org/wiki/Greenwashing).
 
@@ -29,7 +53,7 @@ We want projects that cover more materials, such as:
  - Tooling for test, evaluation, and audit sustainability metrics during the lifecycle of software development.
  - Tooling that highlights wasted/inefficient resources (whether located in Data Centers, platforms, Cloud, etc.)
  - Tooling that improves optimization of carbon footprint/sustainability (for example, energy efficiency/carbon aware scheduling, placement, dispatchers and autoscalers for Data Centers, platforms, Cloud, etc.) 
- - Methodology to measure Scope 1,2,and 3 energy and carbon footprint of systems.
+ - Methodology to measure Scope 1 and 2,and software sytems to manage and track scope 3 energy and carbon footprint.
 
 ## Responsibilities & Deliverables
 
@@ -38,7 +62,7 @@ We want projects that cover more materials, such as:
 - Define users/personas/needs/customer demands in the power metrics/measurements/management
 - Develop methodology to assess organizational maturity and capability to implement improvements
 - Identify areas of focus on performance per Watt, power savings, etc
-- Identify, define, and develop methodology, tools, framework for evaluation - how do products and tools fit the users in the area? What is the standard/benchmark for evaluation and efficiency/green score?
+- Identify, define, and develop procedures to improve environmental sustainability factors, benchmarks for the quantification of energy consumption of software, recommend techniques to manage software such that the overall energy consumption and associated carbon is reduced. Formulate green/efficiency scoring methodology and procedures to evaluate CNCF projects.
 - Evaluate architectures, for example, power measurement and management as well as performance gaps
 - Create recommendations to help users tie improvements to carbon net zero goals
 - Community outreach on any items within scope, for instance blogs/twitter/conferences/podcasts/meetups et cetera
