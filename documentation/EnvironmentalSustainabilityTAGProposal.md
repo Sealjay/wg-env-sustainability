@@ -4,27 +4,6 @@
 
 ### Why TAG Environmental Sustainability? 
 
-<!--- 
-Please note:
-- creditable references are needed for all numbers 
-- Consistent English format (US vs UK) (Q: Which does this use?)
----> 
-
-<!--
-Software may not immediately come to mind when thinking about sustainability, but as the number of people living in increasing wealth increases, so does the consumption of goods, and with it the widespread use of software. Together with the shift of everyday life to digital platforms and the increasing use of software in existing business processes, it is emerging that sustainability and software must be thought together, because without devices, IT infrastructures it would not be possible to use software. Given the widespread use of open source services, the potential impact of sustainable cloud native applications is large.
-
-![](https://i.imgur.com/7EqeDvV.png) // how to reconcile with ESG in general, https://ieeexplore.ieee.org/abstract/document/7202997?casa_token=EttLMTSYpKMAAAAA:CvNURvkeRqTrxZRDhTegl0vAJ7TWgZ1R-jYejGLLQwGJDq03a6NlO1UgQk1yb6w52kxLZpVtmZE
-
-
-As shown in the diagram, sustainability brings together social, economic and environmental aspects to build a sustainable system. As the name of TAG Environmental Sustainability suggests, TAG's focus places a particular emphasis on the environment, but it must also collaborate with other groups in the other areas needed to build a sustainable system, as well as build expertise on its own. 
--->
-
-Data Centers are currently using [1% of the world's electricity use](https://www.science.org/doi/10.1126/science.aba3758). This is conservatively expected to grow to hold 1-2% in the next couple of years, up to 12% by 2040. The growth in energy for computing is out-pacing the global increase in energy production. The contributing factors include: 
-
-* an explosion in the quantity of data
-* the emergence of energy-intensive workloads such as Blockchain/AI/video streaming/VR, 
-* and the flattening of Moore's law.
-
 <!---
 08/02: 
 Max: old research (4~5 years). Current evidence. Precise numbers, CO2 guessmate. Clear pictures needed. 
@@ -38,40 +17,42 @@ other sources (e.g. https://www.iea.org/reports/data-centres-and-data-transmissi
 
 The Paris Climate Accords outline the link between economic activity, greenhouse gas emissions (GHG), and the impacts of climate change. GHG  emissions, primarily made from Carbon Dioxide, are released during the combustion of fossil fuels to produce electricity. To reach net zero goals, we need to identify how to reduce the environmental footprints of increasingly large data centers. The good news is that there is also an increase in industry initiatives for environmental sustainability. This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives.
 
+We seek to provide feedback and tools, along with promoting practices and standards.
+
 All activities aim to positively impact the community by changing mindset, increasing resource efficiency, and putting energy efficiency and environmental sustainability on everyone's agenda.  We also seek to define, prevent, and identify patterns of inadvertent or overt [greenwashing](https://en.wikipedia.org/wiki/Greenwashing).
 
 We recognize that: 
-- there is limited direction in how and much of the technology is within the early stages
-- balancing resource consumption with desire for performance is difficult
+- there is little direction in how and much of the technology is within the early stages
+- balancing resource consumption with the desire for performance is difficult
 - much of the tooling is scattered, not well tested, or not integrated with CNCF projects.
 - there is considerable inconsistency in how emissions are calculated and what is included/excluded by software in scopes of emission. 
  
-In this light, we belive it is essential to achieve the TAG's goals by making sustainability-oriented projects, methodologies, and technologies more accessible to the community and guiding the end users to use resources efficiently to achieve sustainability and climate aligned financial goals.
+In this light, we believe it is essential to achieve the TAG's goals by creating sustainability-oriented projects, methodologies, and technologies more accessible to the community and guiding the end users to use resources efficiently to achieve sustainability and climate-aligned financial goals.
 
 We want projects that cover more materials, such as:
- - Standards and taxonomy that define the metrics and goals of system sustainability. This is similar but not limited to the existing works such as the [Software Carbon Intensity Specification](https://github.com/Green-Software-Foundation/software_carbon_intensity/blob/main/Software_Carbon_Intensity/Software_Carbon_Intensity_Specification.md) under The Green Software Foundation.
+ - Standards and taxonomy that define the metrics and goals of system sustainability. This is similar to but not limited to the existing works such as the [Software Carbon Intensity Specification](https://github.com/Green-Software-Foundation/software_carbon_intensity/blob/main/Software_Carbon_Intensity/Software_Carbon_Intensity_Specification.md) under The Green Software Foundation.
  - Tooling for test, evaluation, and audit sustainability metrics during the lifecycle of software development.
- - Tooling that highlights wasted/inefficient resources (whether located in Data Centers, platforms, Cloud, etc.)
- - Tooling that improves optimization of carbon footprint/sustainability (for example, energy efficiency/carbon aware scheduling, placement, dispatchers and autoscalers for Data Centers, platforms, Cloud, etc.) 
- - Methodology to measure Scope 1 and 2,and software sytems to manage and track scope 3 energy and carbon footprint.
+ - Tooling designed to highlight wasted/inefficient resources (whether located in Data Centers, platforms, Cloud, etc.)
+ - Tooling that improves optimization of carbon footprint/sustainability (for example, energy efficiency/carbon aware scheduling, placement, dispatchers, and autoscalers for Data Centers, platforms, Cloud, etc.) 
+ - Methodology to measure Scope 1 and 2, and software systems to manage and track scope 3 energy and carbon footprint.
 
 ## Responsibilities & Deliverables
 
 ### In-Scope
 
 - Define users/personas/needs/customer demands in the power metrics/measurements/management
-- Develop methodology to assess organizational maturity and capability to implement improvements
+- Develop methodologies to assess organizational maturity and capability to implement improvements
 - Identify areas of focus on performance per Watt, power savings, etc
-- Identify, define, and develop procedures to improve environmental sustainability factors, benchmarks for the quantification of energy consumption of software, recommend techniques to manage software such that the overall energy consumption and associated carbon is reduced. Formulate green/efficiency scoring methodology and procedures to evaluate CNCF projects.
-- Evaluate architectures, for example, power measurement and management as well as performance gaps
+- Identify, define, and develop procedures to improve environmental sustainability factors, benchmarks for the quantification of energy consumption of software, and recommended techniques to manage software such that the overall energy consumption and associated carbon are reduced. Formulate green/efficiency scoring methodology and procedures to evaluate CNCF projects.
+- Evaluate architectures in regards to properties such as power measurement, and management, as well as performance gaps
 - Create recommendations to help users tie improvements to carbon net zero goals
-- Community outreach on any items within scope, for instance blogs/twitter/conferences/podcasts/meetups et cetera
+- Community outreach on any items within scope, for instance, blogs/twitter/conferences/podcasts/meetups et cetera
 - Integrate common tooling into different projects, particularly where that tooling is a CNCF project
-- Identify, define, and develop procedures to improve environmental sustainability factors, benchmarks for the quantification of energy consumption of software, techniques to manage software such that the overall energy consumption and associated carbon is reduced.
+- Identify, define, and develop procedures to improve environmental sustainability factors, benchmarks for the quantification of energy consumption of software, and techniques to manage software such that the overall energy consumption and associated carbon is reduced.
 - Identify, define, and develop procedures and technologies that can be used to create carbon "unit economics"
-- Enhance energy efficiency and reduce carbon footprint of CNCF projects both on-prem and Cloud services
+- Enhance energy efficiency and reduce the carbon footprint of CNCF projects both on-prem and Cloud services
 - Define, prevent, and identify patterns of overt and inadvertent greenwashing
-- Collaborate with existing efforts, especially from the standpoint of cloud native
+- Collaborate with existing efforts, especially from the standpoint of Cloud Native
 
 ### Out of scope
 - Form an umbrella organization beyond the CNCF
@@ -83,17 +64,19 @@ We want projects that cover more materials, such as:
 ### Under Consideration 
 Scope 1,2,3 support (operational and embeded), it it still complicated, but very important, wait for standardization
 Scope 3 for hybrid architecture
+
+Can we add, in here, also something reflecting that we are not responsible for calling out projects for greenwashing, but rather to help projects improve?
 --->
 
 ## Deliverables to ToC
 - framework document for the cloud-native carbon and energy metrics/measurements/management space
 - landscape for the carbon and energy metrics/measurements/management savings
 - recommendations for sandbox projects where exploration is needed
-- recommendations for new CNCF projects where there is clear use cases
+- recommendations for new CNCF projects where there are clear use cases
 - scheduled regular reporting to ToC on ongoing and completed work
-- reporting on carbon and energy saving/metrics/measurements/management projects for graduation and other events, summarizing the external power related research, reviews and other relevant information
+- reporting on carbon and energy saving/metrics/measurements/management projects for graduation and other events, summarizing the external power-related research, reviews, and additional relevant information
 - help with regular health checks of projects in the category
-- suggestions for improvements for CNCF internal processes, for example education for sustainability
+- suggestions for improvements for CNCF internal processes, for example, education for sustainability
 
 #### Audiences
 
@@ -110,7 +93,17 @@ Scope 3 for hybrid architecture
 
 - How do we spell out CNCF “work items” that can be executed by both CNCF staff and the TOC community
 - Can the TOC ask questions of the SIGs?  “Go ruminate on this please”
-- Making sure recommendations don’t over-determine users’ tech choices. For reference, the storage WG was successful because it provided genuine guidance about a *range* of approaches, in a way that is transparent, unbiased, actionable
+- Make sure recommendations don’t over-determine users’ tech choices. For reference, the storage WG was successful because it provided genuine guidance about a *range* of approaches in a way that is transparent, unbiased, actionable
+
+### Alignments
+
+We aim to foster collaborations with other groups and initiatives to fulfill our goals by focusing on our engagement and being a responsive voice in the software sustainability space. We need to investigate which groups and initiatives we should approach first. The radar-shaped alignment diagram below should guide what this investigation could look like. 
+
+<img src="https://i.imgur.com/SgWVcBV.png" width=70% style="display: block; margin: 0 auto">
+
+* **Partnership**: We work closely and actively with other initiatives and teams outside TAG
+* **Collaboration**: We are in close or loose contact with initiatives and teams, but do not work on joint projects
+* **Orientation**: We know the initiatives and teams, but have only sporadic or no contact with them.
 
 ## Roles and Responsibilities
 
@@ -125,17 +118,17 @@ Up to two CNCF TOC members are nominated to advise the chairs and technical comm
 The term of the chairs is inline with the best practices established by CNCF TAGs.
 
 The three co-Chair team selection process is to following these criteria, among other best practices used by the CNCF community:
-- Do the nominees have strong tracking records in community management and project maintenance, especially in sustainability and related areas? 
-- Are the nominees committed to work with their best knowledge for the TAG and CNCF for the duration of their tenure (the term is in line with CNCF conventions)?
+- Do the nominees have strong track records in community management and project maintenance, especially in sustainability and related areas? 
+- Are the nominees committed to working with their best knowledge for the TAG and CNCF for the duration of their tenure (the term is in line with CNCF conventions)?
 - Does the team represent a balance between research, development, and community management?
 
 <!-- these need to be determined -->
 
 
 ### Technical Committee: 
-The technical committee is to help the chairs in managing and developing projects and best practices, gathering the community input, and conducting research works. 
+The technical committee is to help the chairs in managing and developing projects and best practices, gather community input and conduct research. 
 
-The committee consists up to five members for six months terms.
+The committee consists of up to five members for six months terms.
 
 <!-- these can be determined after the fact, but we can get a march by doing it beforehand. -->
 
@@ -149,6 +142,7 @@ This proposal is contributed by (in alphabetical order):
 - Chen Wang
 - Debra Bernstein
 - Eun Kyung Lee
+- Frederick F. Kautz IV
 - Huamin Chen
 - Jiaju Zhang
 - Jorge Palma
@@ -161,3 +155,4 @@ This proposal is contributed by (in alphabetical order):
 - Scott Rigby
 - Tony Mongkolsmai
 - William Caban
+- Wojtek Cichoń
