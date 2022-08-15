@@ -39,6 +39,23 @@ We want projects that cover more materials, such as:
 ## Responsibilities & Deliverables
 
 ### In-Scope
+<!--
+08/15/2022 (Jochen Joswig): See below my idea to narrow down this section.
+
+- Research, develop and define tools, processes, methodologies, recommendations, best-practices, guidelines, benchmarks, or metrics to assess and subsequently improve:
+    - environmental impacts of Cloud Native Technology including, but not limited to:
+        - net zero GHG emissions
+        - energy consumption and usage
+        - performance (per unit of energy)
+        - hardware utilization and longevity
+    - organizational/technical/architectural maturity
+    - detect and avoid greenwashing
+- Community outreach on any topic within its scope including but not limited to:
+    - Social media posts,
+    - Conferences, meetups, and talks,
+    - Podcasts and discussion formats.
+- Collaborate with related efforts, organizations and foundations
+-->
 
 - Define users/personas/needs/customer demands in the power metrics/measurements/management
 - Develop methodologies to assess organizational maturity and capability to implement improvements
@@ -145,6 +162,7 @@ This proposal is contributed by (in alphabetical order):
 - Frederick F. Kautz IV
 - Huamin Chen
 - Jiaju Zhang
+- Jochen Joswig
 - Jorge Palma
 - Leonard Pahlke
 - Mark Butcher
